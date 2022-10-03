@@ -24,7 +24,7 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Build
-        run: npm run build:dev
+        run: npm run build
       - name: Test
         run: |
           npm run test  -- --no-watch --no-progress --browsers=ChromeHeadlessCI
